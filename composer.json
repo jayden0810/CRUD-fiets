@@ -1,0 +1,17 @@
+{
+    "name": "jayde/fiets",
+    "autoload": {
+        "psr-4": {
+            "Project_fiets\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jayden0810",
+            "email": "9025917@student.tcrmbo.nl"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
