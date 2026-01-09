@@ -13,9 +13,9 @@ class FietsenTest extends TestCase
         $fiets = new Fiets();
         
         // Act (Uitvoeren)
-        $result = $fiets->add($conn, 0, "", "", 0);
+        $result = $fiets->add($this->conn, 100, "kaas", "Stadsfiets", 5);
         
         // Assert (Controleren)
-        $this->assertEquals(1, $result, "fiets toevoegen mislukt");
+        $this->assertTrue($result);
     }
 }

@@ -15,7 +15,7 @@ if ($conn === null) {
     die("Database niet beschikbaar.");
 }
 
-//FIETS OBJECT AANMAKEN
+//fiets object maken
 $fiets = new Fiets($conn, 0, "", "", 0);
 
 //alle fietsen

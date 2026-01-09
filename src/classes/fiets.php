@@ -1,4 +1,8 @@
 <?php
+
+//functies: class fiets
+//autor: Jayden Sadhoe
+
 namespace Project_fiets\Classes;
 
 use PDO;
@@ -6,10 +10,7 @@ use PDOException;
 
 class Fiets {
     public int $id;
-
-    // Legacy file retained for compatibility. Class moved to src/Classes/Fiets.php
-    // This file intentionally left blank to avoid duplicate class declarations.
-
+    public string $merk;
     public string $type;
     public int $prijs;
     private PDO $conn;
